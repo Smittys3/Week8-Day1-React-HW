@@ -15,16 +15,16 @@ export default class Nav extends Component {
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/contact">Contact</Link>
-              </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link" to="/todolist">ToDoList</Link>
+              </li> */}
+              <li className="nav-item">
+                <Link className="nav-link" to="/login">Login</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/register">Register</Link>
+                <Link className="nav-link" to="/signup">Sign Up</Link>
               </li>
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown
                 </a> 
@@ -34,7 +34,7 @@ export default class Nav extends Component {
                   <li><hr className="dropdown-divider" /></li>
                   <li><a className="dropdown-item" href="/">Something else here</a></li>
                 </ul>
-              </li>
+              </li> */}
             </ul>
             <form className="d-flex" role="search">
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />

@@ -1,4 +1,4 @@
-/* .App-header {
+.App-header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -8,14 +8,14 @@
   color: white;
   margin-bottom: 30%;
   
-} */
+}
 .photo {
   background-image: url(https://wallpaperaccess.com/full/1797821.jpg);
 } 
 
 
 /* To Do List CSS Below */
-#to-do-form input{
+/* #to-do-form input{
   background-color: rgb(48, 126, 194);
   border: 0; 
   color: #fff;
@@ -42,7 +42,7 @@
 }
 #to-do-form button:focus{
   outline: none;
-}
+} */
 
 
 
